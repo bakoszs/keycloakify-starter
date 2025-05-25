@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+body.kcBodyClass {
+    background-image: none;
+    background: linear-gradient(45deg, #3FA7F0 0%, #F01E5A 100%);
+}
+
+.card-pf {
+    border: none;
+    border-top: none;
+    border-radius: 1rem;
+}
+
+h1#kc-page-title {
+    color: #1E2864;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.pf-c-form__label {
+    color: #6473AF;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.pf-c-form-control:not(textarea) {
+    border-radius: 16px;
+    border-bottom-color: rgb(240, 240, 240);
+    height: auto;
+    padding: 16px;
+}
+
+.pf-c-form-control:focus {
+    padding-bottom: 16px;
+}
+
+.kcInputGroup .pf-c-button.pf-m-control {
+    margin-left: 6px;
+}
+
+.checkbox label {
+    color: #6473AF;
+    text-transform: uppercase;    
+}
+
+.kcFormOptionsWrapperClass span a {
+    color: #F1306E;
+    font-weight: bold;
+}
+
+.pf-c-button.pf-m-primary {
+    background: linear-gradient(45deg, #3FA7F0 0%, #F01E5A 100%);
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.kc-social-section h2 {
+    font-size: 0.8rem;
+    color: #F1306E;
+    text-transform: uppercase;
+}
+
+.kc-social-links li a {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.kc-social-links .pf-c-button.pf-m-control {
+    color: #F1306E;
+}
+
+#kc-registration span a {
+    color: #F1306E;
+    font-weight: bold;
+}
